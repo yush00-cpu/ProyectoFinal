@@ -31,9 +31,22 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="archivo.h" />
+		<Unit filename="archivos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="archivos.h" />
+		<Unit filename="dominio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dominio.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="tiposSeguros.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tiposSeguros.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

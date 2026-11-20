@@ -1,16 +1,26 @@
 #include <stdio.h>
 #include "dominio.h"
 
-void mostrarUnArtista(Artista artista){
-    printf("**ID DEL ARTISTA: %d || NOMBRE: %s || GENERO: %s**\n", artista.id, artista.nombre, artista.genero);
+void mostrarUnArtista(Artista artista)
+{
+    printf("---------------------------\n");
+    printf("ID DEL ARTISTA: %d\n", artista.id);
+    printf("NOMBRE: %s\n", artista.nombre);
+    printf("GENERO: %s\n", artista.genero);
+    printf("---------------------------\n");
 }
 
-void mostrarUnEscenario(Escenario escenario){
-    printf("**ID DEL ESCENARIO: %d || NOMBRE DEL ESCENARIO: %s**\n", escenario.id, escenario.nombre);
+void mostrarUnEscenario(Escenario escenario)
+{
+    printf("---------------------------------------------------\n");
+    printf("ID DEL ESCENARIO: %d | NOMBRE DEL ESCENARIO: %s\n", escenario.id, escenario.nombre);
+    printf("---------------------------------------------------\n");
 }
 
-void mostrarUnaPresentacion(Presentacion presentacion){
-    printf("**ID DE LA PRESENTACION: %d || ID ARTISTA: %d || ID ESCENARIO: %d || INICIO DEL SHOW: %02d:%02d || DURACION DEL SHOW: %02d:%02d hs**\n",
+void mostrarUnaPresentacion(Presentacion presentacion)
+{
+   printf("----------------------------------------------------------------------------------------------------\n");
+    printf("ID PRESENTACION: %d | ID ARTISTA: %d | ID ESCENARIO: %d | INICIO: %02d:%02d | DURACION: %02d:%02d hs\n",
            presentacion.id,
            presentacion.idArtista,
            presentacion.idEscenario,
@@ -18,5 +28,5 @@ void mostrarUnaPresentacion(Presentacion presentacion){
            presentacion.inicio.minutos,
            presentacion.duracion.horas,
            presentacion.duracion.minutos);
-
+    printf("----------------------------------------------------------------------------------------------------\n");
 }
