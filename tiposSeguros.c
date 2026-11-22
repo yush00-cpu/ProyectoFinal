@@ -1,10 +1,6 @@
 #include "tiposSeguros.h"
 
 
-
-
-
-
 Horario crearUnHorario(int horas, int minutos){
 Horario h;
 h.horas = horas;

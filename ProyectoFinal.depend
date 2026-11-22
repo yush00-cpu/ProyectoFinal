@@ -1,13 +1,14 @@
 # depslib dependency file v1.0
-1795155568 source:c:\users\noxie\onedrive\desktop\proyectofinal\main.c
+1795337058 source:c:\users\noxie\onedrive\desktop\proyectofinal\main.c
 	<stdio.h>
 	<stdlib.h>
 	"string.h"
 	"tiposSeguros.h"
 	"dominio.h"
 	"archivos.h"
+	"menu.h"
 
-1795073655 source:c:\users\noxie\onedrive\desktop\proyectofinal\tiposseguros.c
+1795312738 source:c:\users\noxie\onedrive\desktop\proyectofinal\tiposseguros.c
 	"tiposSeguros.h"
 
 1795053575 c:\users\noxie\onedrive\desktop\proyectofinal\tiposseguros.h
@@ -19,10 +20,19 @@
 	<stdio.h>
 	"dominio.h"
 
-1795155339 source:c:\users\noxie\onedrive\desktop\proyectofinal\archivos.c
+1795342724 source:c:\users\noxie\onedrive\desktop\proyectofinal\archivos.c
 	<stdio.h>
 	"archivos.h"
 
-1795123345 c:\users\noxie\onedrive\desktop\proyectofinal\archivos.h
+1795343434 c:\users\noxie\onedrive\desktop\proyectofinal\archivos.h
 	"dominio.h"
+
+1795335338 c:\users\noxie\onedrive\desktop\proyectofinal\menu.h
+
+1795343904 source:c:\users\noxie\onedrive\desktop\proyectofinal\menu.c
+	<stdlib.h>
+	<stdio.h>
+	"string.h"
+	"menu.h"
+	"archivos.h"
 
